@@ -1,0 +1,4 @@
+//  Disable (doctype-first) error in the components html files
+{
+  "doctype-first": false
+}
