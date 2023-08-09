@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
+export default class AppComponent {
   title = 'akosaat';
 }
