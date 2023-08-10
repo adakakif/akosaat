@@ -1,7 +1,3 @@
 <ng-container *ngIf="watches$ | async as watches">
-  <ng-container *ngFor="let watch of watches">
-    <div>{{ watch.model }}</div>
-    <div>{{ watch.category }}</div>
-    <div>{{ watch.price }}</div>
-  </ng-container>
+  <app-watch-list [watches]="watches"></app-watch-list>
 </ng-container>
