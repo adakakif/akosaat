@@ -1,25 +1,25 @@
-import { Routes } from "@angular/router";
-import { HomeComponent } from "./components/home/home.component";
-import { WatchesComponent } from "./components/watches/watches.component";
+import { Routes } from '@angular/router';
+import HomeComponent from './components/home/home.component';
+import WatchesComponent from './components/watches/watches.component';
 
 const APP_ROUTES: Routes = [
   {
-    path: "watches",
+    path: 'watches',
     component: WatchesComponent,
   },
   {
-    path: "home",
+    path: 'home',
     component: HomeComponent,
   },
   {
-    path: "",
-    pathMatch: "full",
-    redirectTo: "home",
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'home',
   },
   {
-    path: "**",
-    pathMatch: "full",
-    redirectTo: "home",
+    path: '**',
+    pathMatch: 'full',
+    redirectTo: 'home',
   },
 ];
 

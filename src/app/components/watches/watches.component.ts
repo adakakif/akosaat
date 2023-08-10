@@ -6,8 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './watches.component.html',
-  styleUrls: ['./watches.component.scss']
+  styleUrls: ['./watches.component.scss'],
 })
-export class WatchesComponent {
-
-}
+export default class WatchesComponent {}
